@@ -17,6 +17,10 @@ org_settings:
   host_expiry_settings:
     host_expiry_enabled: true
     host_expiry_window: 30
+  webhook_settings:
+    activites_webhook:
+      enable_activities_webhook: true
+      destination_url: "https://webhook.site/96d5dbb6-0244-4d3b-bfaa-0f5d82492270"
   org_info:
     ###########################################################
     # The name of your organization is displayed to end users
@@ -26,7 +30,7 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: Minni
+    org_name: Go Twins
 
   server_settings:
     ###########################################################
